@@ -1,0 +1,82 @@
+[
+  {
+    "name": "ironclad-v1",
+    "character": "ironclad",
+    "title": "Ironclad AI v1",
+    "summary": "Beats the Act 3 boss in 93% of runs at ascension 0, 75% at A10, 22% at A20.",
+    "file": "models/ironclad-v1.safetensors",
+    "engine": "models/ironclad-v1.sts.wasm",
+    "bytes": 4466672,
+    "about": "ironclad-runs-habits-12 update 200: beats the Act 3 boss in 93.1% of runs at A0, 75.2% at A10, 21.9% at A20 (docs/models/ironclad-v1.md)",
+    "win": {
+      "bias": -5.7280138462645525,
+      "value": 0.8873641533128895,
+      "floor": 0.02326145059280679,
+      "ascension": 0.44699341235607054,
+      "ascension2": -0.015401816359884654,
+      "value_ascension": -0.023815638136885427,
+      "value_floor": 0.0004117984302119472,
+      "fit": "python/release/win_calibration.py: 2,560 greedy runs of ironclad-runs-habits-12 update 200 at A0, A5, A10, A15, A20; held-out log loss 0.350 (constant 0.574); by ascension predicted/won A0 0.94/0.92, A10 0.83/0.83, A15 0.59/0.64, A20 0.28/0.26"
+    }
+  },
+  {
+    "name": "silent-v1",
+    "character": "silent",
+    "title": "Silent AI v1",
+    "summary": "Beats the Act 3 boss in 76% of runs at ascension 0, 48% at A10, 3% at A20.",
+    "file": "models/silent-v1.safetensors",
+    "engine": "models/silent-v1.sts.wasm",
+    "bytes": 4466672,
+    "about": "silent-runs-5 update 1200: beats the Act 3 boss in 75.8% of runs at A0, 47.9% at A10, 2.9% at A20 (docs/models/silent-v1.md)",
+    "win": {
+      "bias": -4.459364658078126,
+      "value": 0.7535880032902417,
+      "floor": -0.004764136341323501,
+      "ascension": 0.16741232693434452,
+      "ascension2": -0.006011941406751456,
+      "value_ascension": -0.007866101703960564,
+      "value_floor": 0.0019593158877953564,
+      "fit": "python/release/win_calibration.py: 2,560 greedy runs of silent-runs-5 update 1200 at A0, A5, A10, A15, A20; held-out log loss 0.454 (constant 0.688); by ascension predicted/won A0 0.77/0.82, A10 0.55/0.48, A15 0.39/0.47, A20 0.09/0.08"
+    }
+  },
+  {
+    "name": "defect-v1",
+    "character": "defect",
+    "title": "Defect AI v1",
+    "summary": "Beats the Heart in 28% of runs at ascension 0, 10% at A10, 1% at A20.",
+    "file": "models/defect-v1.safetensors",
+    "bytes": 6221800,
+    "about": "defect-runs-10 update 600: beats the Heart in 27.5% of runs at A0, 10.4% at A10, 0.9% at A20 (docs/models/defect-v1.md)",
+    "win": {
+      "bias": -3.0046382910615343,
+      "value": 0.3049339187996866,
+      "floor": 0.002428253369373348,
+      "ascension": -0.007545461029194778,
+      "ascension2": -0.0028715602146674427,
+      "value_ascension": 0.004042115901032498,
+      "value_floor": -0.0011882913060157403,
+      "heart": true,
+      "fit": "python/release/win_calibration.py --heart: 2,560 greedy runs of defect-runs-10 update 600 at A0, A5, A10, A15, A20, won = beat the Heart; held-out log loss 0.411 (constant 0.547); by ascension predicted/won A0 0.36/0.41, A10 0.16/0.18, A15 0.08/0.14, A20 0.04/0.06"
+    }
+  },
+  {
+    "name": "watcher-v1",
+    "character": "watcher",
+    "title": "Watcher AI v1",
+    "summary": "Beats the Heart in 44% of runs at ascension 0, 26% at A10, 8% at A20.",
+    "file": "models/watcher-v1.safetensors",
+    "bytes": 3566216,
+    "about": "watcher-runs-1-stance-seeds update 3600: beats the Heart in 43.8% of runs at A0, 26.3% at A10, 8.0% at A20 (docs/models/watcher-v1.md)",
+    "win": {
+      "bias": -1.9565522471871641,
+      "value": 0.5991280214800752,
+      "floor": 0.02478932093857172,
+      "ascension": -0.09721812535239031,
+      "ascension2": -0.001252382209263648,
+      "value_ascension": 0.00876995444443622,
+      "value_floor": -0.008117078121602067,
+      "heart": true,
+      "fit": "python/release/win_calibration.py --heart: 2,560 greedy runs of watcher-runs-1-stance-seeds update 3600 at A0, A5, A10, A15, A20, won = beat the Heart; held-out log loss 0.507 (constant 0.660); by ascension predicted/won A0 0.48/0.55, A10 0.34/0.37, A15 0.23/0.24, A20 0.15/0.11"
+    }
+  }
+]

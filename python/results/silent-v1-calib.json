@@ -1,0 +1,1 @@
+{"bias": -4.459364658078126, "value": 0.7535880032902417, "floor": -0.004764136341323501, "ascension": 0.16741232693434452, "ascension2": -0.006011941406751456, "value_ascension": -0.007866101703960564, "value_floor": 0.0019593158877953564, "fit": "2560 greedy runs of sl5 update 1200, A0,5,10,15,20; held-out log loss 0.454 (constant 0.688)"}

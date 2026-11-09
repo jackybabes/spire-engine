@@ -1,0 +1,370 @@
+Immolate
+Grand Finale
+Regret
+Crippling Poison
+Storm
+DeusExMachina
+A Thousand Cuts
+Spot Weakness
+Genetic Algorithm
+Go for the Eyes
+Zap
+Steam Power
+Wound
+Core Surge
+Fission
+Writhe
+Beta
+Hello World
+Creative AI
+Dark Shackles
+Glass Knife
+Consecrate
+Cloak And Dagger
+BowlingBash
+Underhanded Strike
+Anger
+Storm of Steel
+WheelKick
+Cleave
+Ball Lightning
+Warcry
+Sunder
+Glacier
+Inflame
+Sadistic Nature
+J.A.X.
+Offering
+Vengeance
+FlyingSleeves
+Exhume
+Streamline
+Wireheading
+Consume
+Power Through
+Dual Wield
+Deadly Poison
+Leg Sweep
+PanicButton
+Flex
+Redo
+AscendersBane
+Dagger Spray
+Bullet Time
+Fusion
+Catalyst
+Sanctity
+Halt
+Reaper
+Shiv
+Bane
+Tactician
+JustLucky
+Infernal Blade
+After Image
+Unload
+FlurryOfBlows
+Blade Dance
+Deflect
+Compile Driver
+TalkToTheHand
+BattleHymn
+Protect
+Trip
+Indignation
+Dagger Throw
+Amplify
+ThirdEye
+Brutality
+Night Terror
+WindmillStrike
+Iron Wave
+Reboot
+Reckless Charge
+All For One
+ForeignInfluence
+Decay
+FameAndFortune
+Tools of the Trade
+Aggregate
+Expertise
+Dramatic Entrance
+Hemokinesis
+Blizzard
+Chaos
+LiveForever
+Intimidate
+Echo Form
+Necronomicurse
+Juggernaut
+Choke
+Caltrops
+Impatience
+DevaForm
+Poisoned Stab
+The Bomb
+Blur
+LikeWater
+Body Slam
+True Grit
+Insight
+Setup
+Barrage
+Crescendo
+SpiritShield
+Blood for Blood
+Impervious
+ClearTheMind
+EmptyBody
+Shrug It Off
+Meteor Strike
+Establishment
+Fasting2
+Clash
+Stack
+Miracle
+CarveReality
+Wallop
+Thunderclap
+Rebound
+Flame Barrier
+Seek
+Endless Agony
+WreathOfFlame
+Collect
+SashWhip
+Wraith Form v2
+Melter
+Berserk
+Pummel
+Burning Pact
+Riddle With Holes
+Metallicize
+Self Repair
+Pommel Strike
+Pain
+Rainbow
+InnerPeace
+Burst
+Acrobatics
+Adaptation
+Loop
+Blind
+Doppelganger
+Skewer
+Omniscience
+Envenom
+Chill
+Adrenaline
+Quick Slash
+Twin Strike
+BootSequence
+Parasite
+Bash
+RitualDagger
+Gash
+Wish
+Clothesline
+DeceiveReality
+MentalFortress
+Shockwave
+BecomeAlmighty
+Rampage
+Coolheaded
+Static Discharge
+Alpha
+Heatsinks
+Vault
+Bandage Up
+Scrawl
+Sever Soul
+Eruption
+Whirlwind
+Bite
+LessonLearned
+Secret Technique
+Calculated Gamble
+Tempest
+Combust
+Deep Breath
+Doubt
+Escape Plan
+CutThroughFate
+ReachHeaven
+Finisher
+Dark Embrace
+Die Die Die
+Well Laid Plans
+Ragnarok
+Buffer
+Electrodynamics
+FearNoEvil
+Seeing Red
+SandsOfTime
+Smite
+Violence
+Disarm
+Turbo
+Panache
+Undo
+Fiend Fire
+Terror
+Force Field
+Dazed
+Barricade
+Armaments
+Havoc
+Secret Weapon
+Apotheosis
+Sweeping Beam
+Feel No Pain
+FTL
+Rip and Tear
+Darkness
+Corruption
+Heel Hook
+Blasphemy
+Injury
+Double Energy
+Rage
+Headbutt
+Machine Learning
+Reinforced Body
+Defend_P
+Limit Break
+Entrench
+Noxious Fumes
+Infinite Blades
+Phantasmal Killer
+WaveOfTheHand
+Malaise
+Conserve Battery
+Defend_R
+Mayhem
+Reflex
+Study
+Expunger
+Sentinel
+Survivor
+Wild Strike
+Defend_G
+HandOfGreed
+Meditate
+Eviscerate
+Flash of Steel
+Defend_B
+Battle Trance
+Forethought
+Dualcast
+Auto Shields
+Perseverance
+Swivel
+Heavy Blade
+Slimed
+Clumsy
+Biased Cognition
+Searing Blow
+Devotion
+Reprogram
+Hologram
+Corpse Explosion
+Second Wind
+Enlightenment
+Purity
+Panacea
+Lockon
+Dash
+Worship
+Conclude
+ThroughViolence
+Transmutation
+Ghostly
+Backstab
+Chrysalis
+FollowUp
+Void
+Scrape
+Feed
+Vigilance
+Rupture
+Venomology
+Discovery
+Beam Cell
+Leap
+CurseOfTheBell
+Bouncing Flask
+PathToVictory
+Bludgeon
+Finesse
+Slice
+Recycle
+Backflip
+Outmaneuver
+Bloodletting
+Brilliance
+Magnetism
+Concentrate
+Skim
+White Noise
+Capacitor
+Cold Snap
+CrushJoints
+Master of Strategy
+Flechettes
+Tantrum
+Perfected Strike
+Strike_B
+Thunder Strike
+Carnage
+Masterful Stab
+Nirvana
+Evaluate
+Prepared
+Good Instincts
+Dropkick
+Swift Strike
+Normality
+Strike_G
+MasterReality
+Omega
+Hyperbeam
+Accuracy
+Sword Boomerang
+EmptyMind
+Pride
+Defragment
+Jack Of All Trades
+Demon Form
+Fire Breathing
+Ghostly Armor
+Weave
+Safety
+Metamorphosis
+Prostrate
+SignatureMove
+Uppercut
+PiercingWail
+Mind Blast
+Neutralize
+Multi-Cast
+Shame
+Doom and Gloom
+Evolve
+Double Tap
+Sucker Punch
+Burn
+ConjureBlade
+Strike_R
+Judgement
+Footwork
+Strike_P
+Steam
+Distraction
+Dodge and Roll
+Thinking Ahead
+EmptyFist
+All Out Attack
+Flying Knee
+Predator
+Pray
+Madness

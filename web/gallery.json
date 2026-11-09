@@ -1,0 +1,51 @@
+[
+  {
+    "file": "a20_win_L7WC.json",
+    "title": "The Ironclad wins at ascension 20",
+    "line": "The network ironclad-runs-habits-10 clears the hardest difficulty on seed L7WC, beats both final bosses and ends at full HP.",
+    "character": "ironclad",
+    "ascension": 20,
+    "by": "network",
+    "featured": true
+  },
+  {
+    "file": "watcher-a20-heart.json",
+    "title": "The Watcher's first Heart win at ascension 20",
+    "line": "watcher-runs-1-lower-lr (update 700) takes the three keys, beats both Act 3 bosses and then the Heart at ascension 20 on seed 6ZWI, finishing it on 13 HP: the Watcher network's first A20 Heart win, one night into its training.",
+    "character": "watcher",
+    "ascension": 20,
+    "by": "network"
+  },
+  {
+    "file": "silent_a20_win_sl5.json",
+    "title": "The Silent wins at ascension 20",
+    "line": "The Silent's network silent-runs-5 (update 800) wins its first A20 run, on seed 70ES, with Kunai and Akabeko.",
+    "character": "silent",
+    "ascension": 20,
+    "by": "network"
+  },
+  {
+    "file": "silent_a0_win_sl1.json",
+    "title": "The Silent's first network wins",
+    "line": "silent-runs-1 at update 110, a few hours into its training, wins at ascension 0 on seed 706Y.",
+    "character": "silent",
+    "ascension": 0,
+    "by": "network"
+  },
+  {
+    "file": "run.json",
+    "title": "An early Ironclad win",
+    "line": "One of the first Ironclad networks wins at ascension 0 (seed 6ZXB), with Sacred Bark doubling its potions.",
+    "character": "ironclad",
+    "ascension": 0,
+    "by": "network"
+  },
+  {
+    "file": "block_run.json",
+    "title": "A 41-card Ironclad deck",
+    "line": "An Ironclad network wins at ascension 0 (seed 87XNM) carrying a big deck, Sozu and Mark of Pain.",
+    "character": "ironclad",
+    "ascension": 0,
+    "by": "network"
+  }
+]

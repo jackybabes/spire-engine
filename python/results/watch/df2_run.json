@@ -1,0 +1,8897 @@
+{
+ "ascension": 0,
+ "character": "defect",
+ "neow_full": true,
+ "seed": 300122,
+ "seed_string": "6ZZX",
+ "steps": [
+  {
+   "action": {
+    "option": 1,
+    "type": "neow"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 0,
+   "hp": 75,
+   "kind": "neow"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 0
+   },
+   "floor": 0,
+   "hp": 75,
+   "kind": "map",
+   "path_x": 0
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 1,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 1,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 1,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 1,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 1,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 1,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 1"
+   ],
+   "floor": 1,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 1,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 1"
+   ],
+   "floor": 1,
+   "hp": 74,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 1,
+   "hp": 74,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 1,
+   "hp": 74,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "pick_card"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 1,
+   "hp": 74,
+   "kind": "card_reward"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 1,
+   "hp": 74,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 1,
+   "hp": 74,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 1
+   },
+   "floor": 1,
+   "hp": 74,
+   "kind": "map",
+   "path_x": 1
+  },
+  {
+   "action": {
+    "index": 4,
+    "type": "buy_card"
+   },
+   "cmds": [
+    "choose 5"
+   ],
+   "floor": 2,
+   "hp": 74,
+   "kind": "shop"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "leave?",
+    "proceed"
+   ],
+   "floor": 2,
+   "hp": 74,
+   "kind": "shop"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 2
+   },
+   "floor": 2,
+   "hp": 74,
+   "kind": "map",
+   "path_x": 2
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 3,
+   "hp": 74,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 3,
+   "hp": 74,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 3,
+   "hp": 74,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 3,
+   "hp": 74,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 3,
+   "hp": 69,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 3,
+   "hp": 69,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 3,
+   "hp": 69,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 3,
+   "hp": 69,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 1"
+   ],
+   "floor": 3,
+   "hp": 69,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 1"
+   ],
+   "floor": 3,
+   "hp": 69,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 3,
+   "hp": 69,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "skip_cards"
+   },
+   "cmds": [
+    "skip"
+   ],
+   "floor": 3,
+   "hp": 69,
+   "kind": "card_reward"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 3,
+   "hp": 69,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 3,
+   "hp": 69,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 1
+   },
+   "floor": 3,
+   "hp": 69,
+   "kind": "map",
+   "path_x": 1
+  },
+  {
+   "action": {
+    "index": 2,
+    "type": "buy_potion"
+   },
+   "cmds": [
+    "choose 3"
+   ],
+   "floor": 4,
+   "hp": 69,
+   "kind": "shop"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "leave?",
+    "proceed"
+   ],
+   "floor": 4,
+   "hp": 69,
+   "kind": "shop"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 1
+   },
+   "floor": 4,
+   "hp": 69,
+   "kind": "map",
+   "path_x": 1
+  },
+  {
+   "action": {
+    "index": 2,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 5,
+   "hp": 69,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 5,
+   "hp": 69,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 1
+   },
+   "floor": 5,
+   "hp": 69,
+   "kind": "map",
+   "path_x": 1
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 6,
+   "hp": 69,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 6,
+   "hp": 69,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 6,
+   "hp": 69,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 6,
+   "hp": 69,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 6,
+   "hp": 69,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 6,
+   "hp": 69,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 6,
+   "hp": 69,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 6,
+   "hp": 69,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 6,
+   "hp": 58,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 6,
+   "hp": 58,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 6,
+   "hp": 58,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 6,
+   "hp": 58,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 6,
+   "hp": 58,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 6,
+   "hp": 58,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 2,
+    "type": "pick_card"
+   },
+   "cmds": [
+    "choose 2"
+   ],
+   "floor": 6,
+   "hp": 58,
+   "kind": "card_reward"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 6,
+   "hp": 58,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 6,
+   "hp": 58,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 1
+   },
+   "floor": 6,
+   "hp": 58,
+   "kind": "map",
+   "path_x": 1
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 7,
+   "hp": 58,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 7,
+   "hp": 63,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 2
+   },
+   "floor": 7,
+   "hp": 63,
+   "kind": "map",
+   "path_x": 2
+  },
+  {
+   "action": {
+    "action": {
+     "slot": 0,
+     "target": null,
+     "type": "use_potion"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "potion use 0"
+   ],
+   "floor": 8,
+   "hp": 63,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 2"
+   ],
+   "floor": 8,
+   "hp": 63,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 2"
+   ],
+   "floor": 8,
+   "hp": 63,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 2"
+   ],
+   "floor": 8,
+   "hp": 63,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 8,
+   "hp": 63,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 8,
+   "hp": 54,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 8,
+   "hp": 54,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 8,
+   "hp": 54,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 8,
+   "hp": 54,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 8,
+   "hp": 50,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 8,
+   "hp": 50,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 8,
+   "hp": 50,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 8,
+   "hp": 50,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 8,
+   "hp": 50,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 8,
+   "hp": 50,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 8,
+   "hp": 50,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 8,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 8,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 8,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 1"
+   ],
+   "floor": 8,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 8,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 8,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 2,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 2"
+   ],
+   "floor": 8,
+   "hp": 41,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 8,
+   "hp": 41,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 8,
+   "hp": 41,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 8,
+   "hp": 41,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "skip_cards"
+   },
+   "cmds": [
+    "skip"
+   ],
+   "floor": 8,
+   "hp": 41,
+   "kind": "card_reward"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 8,
+   "hp": 41,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 8,
+   "hp": 41,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 3
+   },
+   "floor": 8,
+   "hp": 41,
+   "kind": "map",
+   "path_x": 3
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 9,
+   "hp": 41,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 9,
+   "hp": 41,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 2
+   },
+   "floor": 9,
+   "hp": 41,
+   "kind": "map",
+   "path_x": 2
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 10,
+   "hp": 41,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 10,
+   "hp": 41,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 3
+   },
+   "floor": 10,
+   "hp": 41,
+   "kind": "map",
+   "path_x": 3
+  },
+  {
+   "action": {
+    "action": {
+     "slot": 0,
+     "target": null,
+     "type": "use_potion"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "potion use 0"
+   ],
+   "floor": 11,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 11,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 11,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 11,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 11,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 11,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 11,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 11,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 11,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 11,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 11,
+   "hp": 41,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 11,
+   "hp": 28,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 11,
+   "hp": 28,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 11,
+   "hp": 28,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 11,
+   "hp": 28,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 11,
+   "hp": 23,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 11,
+   "hp": 23,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 11,
+   "hp": 23,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 11,
+   "hp": 23,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "pick_card"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 11,
+   "hp": 23,
+   "kind": "card_reward"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 11,
+   "hp": 23,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 11,
+   "hp": 23,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 2
+   },
+   "floor": 11,
+   "hp": 23,
+   "kind": "map",
+   "path_x": 2
+  },
+  {
+   "action": {
+    "type": "rest"
+   },
+   "cmds": [
+    "choose rest"
+   ],
+   "floor": 12,
+   "hp": 23,
+   "kind": "rest"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "pick_card"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 12,
+   "hp": 47,
+   "kind": "card_reward"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 2
+   },
+   "floor": 12,
+   "hp": 47,
+   "kind": "map",
+   "path_x": 2
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 13,
+   "hp": 47,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 13,
+   "hp": 47,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 2
+   },
+   "floor": 13,
+   "hp": 47,
+   "kind": "map",
+   "path_x": 2
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 14,
+   "hp": 47,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 14,
+   "hp": 47,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 14,
+   "hp": 47,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 14,
+   "hp": 47,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 14,
+   "hp": 43,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 14,
+   "hp": 43,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 14,
+   "hp": 43,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 14,
+   "hp": 43,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 2"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 1"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 1"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 14,
+   "hp": 35,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 14,
+   "hp": 42,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 14,
+   "hp": 56,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 14,
+   "hp": 56,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "skip_cards"
+   },
+   "cmds": [
+    "skip"
+   ],
+   "floor": 14,
+   "hp": 56,
+   "kind": "card_reward"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 14,
+   "hp": 56,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 14,
+   "hp": 56,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 1
+   },
+   "floor": 14,
+   "hp": 56,
+   "kind": "map",
+   "path_x": 1
+  },
+  {
+   "action": {
+    "type": "smith"
+   },
+   "cmds": [
+    "choose smith"
+   ],
+   "floor": 15,
+   "hp": 56,
+   "kind": "rest"
+  },
+  {
+   "action": {
+    "indices": [
+     11
+    ],
+    "type": "select"
+   },
+   "floor": 15,
+   "grid_deck": [
+    11
+   ],
+   "hp": 56,
+   "kind": "grid"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 3
+   },
+   "floor": 15,
+   "hp": 56,
+   "kind": "map",
+   "path_x": 3
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 16,
+   "hp": 56,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 16,
+   "hp": 56,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 16,
+   "hp": 56,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 16,
+   "hp": 56,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 16,
+   "hp": 56,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "slot": 0,
+     "target": 0,
+     "type": "use_potion"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "potion use 0 0"
+   ],
+   "floor": 16,
+   "hp": 56,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 16,
+   "hp": 56,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 16,
+   "hp": 56,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 16,
+   "hp": 56,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 16,
+   "hp": 56,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 16,
+   "hp": 56,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 16,
+   "hp": 52,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5 0"
+   ],
+   "floor": 16,
+   "hp": 48,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 16,
+   "hp": 48,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 16,
+   "hp": 48,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5 0"
+   ],
+   "floor": 16,
+   "hp": 48,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 16,
+   "hp": 48,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 16,
+   "hp": 48,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 16,
+   "hp": 48,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 16,
+   "hp": 48,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 16,
+   "hp": 48,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 16,
+   "hp": 48,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 16,
+   "hp": 47,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 16,
+   "hp": 44,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 16,
+   "hp": 44,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 16,
+   "hp": 44,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 16,
+   "hp": 44,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 16,
+   "hp": 50,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 16,
+   "hp": 50,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "pick_card"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 16,
+   "hp": 50,
+   "kind": "card_reward"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 16,
+   "hp": 50,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 16,
+   "hp": 50,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "boss_relic"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 17,
+   "hp": 50,
+   "kind": "boss_relic"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 0
+   },
+   "floor": 17,
+   "hp": 94,
+   "kind": "map",
+   "path_x": 0
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 18,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 18,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 18,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 18,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 18,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 2,
+    "type": "pick_card"
+   },
+   "cmds": [
+    "choose 2"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "card_reward"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 18,
+   "hp": 94,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 1
+   },
+   "floor": 18,
+   "hp": 94,
+   "kind": "map",
+   "path_x": 1
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 19,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 19,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 19,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 19,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 19,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 19,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 19,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 19,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 19,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 19,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 19,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 19,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 19,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 19,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 19,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 1"
+   ],
+   "floor": 19,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5 1"
+   ],
+   "floor": 19,
+   "hp": 75,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 2,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 2"
+   ],
+   "floor": 19,
+   "hp": 82,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 2,
+    "type": "pick_card"
+   },
+   "cmds": [
+    "choose 2"
+   ],
+   "floor": 19,
+   "hp": 82,
+   "kind": "card_reward"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 19,
+   "hp": 82,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 19,
+   "hp": 82,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 1
+   },
+   "floor": 19,
+   "hp": 82,
+   "kind": "map",
+   "path_x": 1
+  },
+  {
+   "action": {
+    "index": 2,
+    "type": "buy_potion"
+   },
+   "cmds": [
+    "choose 13"
+   ],
+   "floor": 20,
+   "hp": 82,
+   "kind": "shop"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "buy_potion"
+   },
+   "cmds": [
+    "choose 11"
+   ],
+   "floor": 20,
+   "hp": 82,
+   "kind": "shop"
+  },
+  {
+   "action": {
+    "index": 2,
+    "type": "buy_relic"
+   },
+   "cmds": [
+    "choose 10"
+   ],
+   "floor": 20,
+   "hp": 82,
+   "kind": "shop"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "leave?",
+    "proceed"
+   ],
+   "floor": 20,
+   "hp": 82,
+   "kind": "shop"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 2
+   },
+   "floor": 20,
+   "hp": 82,
+   "kind": "map",
+   "path_x": 2
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 1"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5 1"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 1"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 21,
+   "hp": 82,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 21,
+   "hp": 67,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 21,
+   "hp": 67,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 21,
+   "hp": 67,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 21,
+   "hp": 67,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 21,
+   "hp": 67,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 1"
+   ],
+   "floor": 21,
+   "hp": 64,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 21,
+   "hp": 71,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 21,
+   "hp": 71,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 2,
+    "type": "pick_card"
+   },
+   "cmds": [
+    "choose 2"
+   ],
+   "floor": 21,
+   "hp": 71,
+   "kind": "card_reward"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 21,
+   "hp": 71,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 1
+   },
+   "floor": 21,
+   "hp": 71,
+   "kind": "map",
+   "path_x": 1
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 22,
+   "hp": 71,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 22,
+   "hp": 71,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 1
+   },
+   "floor": 22,
+   "hp": 71,
+   "kind": "map",
+   "path_x": 1
+  },
+  {
+   "action": {
+    "type": "smith"
+   },
+   "cmds": [
+    "choose smith"
+   ],
+   "floor": 23,
+   "hp": 71,
+   "kind": "rest"
+  },
+  {
+   "action": {
+    "indices": [
+     12
+    ],
+    "type": "select"
+   },
+   "floor": 23,
+   "grid_deck": [
+    12
+   ],
+   "hp": 71,
+   "kind": "grid"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 2
+   },
+   "floor": 23,
+   "hp": 71,
+   "kind": "map",
+   "path_x": 2
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "leave?",
+    "proceed"
+   ],
+   "floor": 24,
+   "hp": 71,
+   "kind": "shop"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 2
+   },
+   "floor": 24,
+   "hp": 71,
+   "kind": "map",
+   "path_x": 2
+  },
+  {
+   "action": {
+    "type": "smith"
+   },
+   "cmds": [
+    "choose smith"
+   ],
+   "floor": 25,
+   "hp": 71,
+   "kind": "rest"
+  },
+  {
+   "action": {
+    "indices": [
+     18
+    ],
+    "type": "select"
+   },
+   "floor": 25,
+   "grid_deck": [
+    18
+   ],
+   "hp": 71,
+   "kind": "grid"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 3
+   },
+   "floor": 25,
+   "hp": 71,
+   "kind": "map",
+   "path_x": 3
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 26,
+   "hp": 71,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 26,
+   "hp": 71,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 4
+   },
+   "floor": 26,
+   "hp": 71,
+   "kind": "map",
+   "path_x": 4
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "leave?",
+    "proceed"
+   ],
+   "floor": 27,
+   "hp": 71,
+   "kind": "shop"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 5
+   },
+   "floor": 27,
+   "hp": 71,
+   "kind": "map",
+   "path_x": 5
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 28,
+   "hp": 71,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "indices": [
+     0,
+     1
+    ],
+    "type": "select"
+   },
+   "floor": 28,
+   "grid_deck": [
+    0,
+    1
+   ],
+   "hp": 71,
+   "kind": "grid"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 28,
+   "hp": 71,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 5
+   },
+   "floor": 28,
+   "hp": 71,
+   "kind": "map",
+   "path_x": 5
+  },
+  {
+   "action": {
+    "type": "smith"
+   },
+   "cmds": [
+    "choose smith"
+   ],
+   "floor": 29,
+   "hp": 71,
+   "kind": "rest"
+  },
+  {
+   "action": {
+    "indices": [
+     17
+    ],
+    "type": "select"
+   },
+   "floor": 29,
+   "grid_deck": [
+    17
+   ],
+   "hp": 71,
+   "kind": "grid"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 5
+   },
+   "floor": 29,
+   "hp": 71,
+   "kind": "map",
+   "path_x": 5
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 30,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 30,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 30,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 30,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 30,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 30,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 30,
+   "hp": 65,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 30,
+   "hp": 65,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 30,
+   "hp": 65,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 30,
+   "hp": 65,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 30,
+   "hp": 72,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 4
+   },
+   "floor": 30,
+   "hp": 72,
+   "kind": "map",
+   "path_x": 4
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 1"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "slot": 0,
+     "target": null,
+     "type": "use_potion"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "potion use 0"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 2"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "slot": 4,
+     "target": 0,
+     "type": "use_potion"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "potion use 4 0"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 4"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 4"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 31,
+   "hp": 72,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 3,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 31,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 5,
+     "target": 3,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 6 0"
+   ],
+   "floor": 31,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 31,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 4,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 2"
+   ],
+   "floor": 31,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 31,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 31,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 4"
+   ],
+   "floor": 31,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 31,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 4"
+   ],
+   "floor": 31,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 31,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 31,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 6"
+   ],
+   "floor": 31,
+   "hp": 71,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 31,
+   "hp": 78,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 31,
+   "hp": 78,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 31,
+   "hp": 78,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 3
+   },
+   "floor": 31,
+   "hp": 78,
+   "kind": "map",
+   "path_x": 3
+  },
+  {
+   "action": {
+    "type": "smith"
+   },
+   "cmds": [
+    "choose smith"
+   ],
+   "floor": 32,
+   "hp": 78,
+   "kind": "rest"
+  },
+  {
+   "action": {
+    "indices": [
+     6
+    ],
+    "type": "select"
+   },
+   "floor": 32,
+   "grid_deck": [
+    6
+   ],
+   "hp": 78,
+   "kind": "grid"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 3
+   },
+   "floor": 32,
+   "hp": 78,
+   "kind": "map",
+   "path_x": 3
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "slot": 0,
+     "target": null,
+     "type": "use_potion"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "potion use 0"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "indices": [
+      0
+     ],
+     "type": "choose"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "choose 0",
+    "confirm?"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "slot": 3,
+     "target": null,
+     "type": "use_potion"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "potion use 3"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "indices": [
+      0
+     ],
+     "type": "choose"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "choose 0",
+    "confirm?"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 5,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 6"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 33,
+   "hp": 78,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 1"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 1"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5 0"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 2"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 2"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 2"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 33,
+   "hp": 68,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 33,
+   "hp": 64,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 33,
+   "hp": 71,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 33,
+   "hp": 71,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "pick_card"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 33,
+   "hp": 71,
+   "kind": "card_reward"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 33,
+   "hp": 71,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "boss_relic"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 34,
+   "hp": 71,
+   "kind": "boss_relic"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 1
+   },
+   "floor": 34,
+   "hp": 94,
+   "kind": "map",
+   "path_x": 1
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5 2"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 1"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5 1"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 35,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 35,
+   "hp": 79,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 2
+   },
+   "floor": 35,
+   "hp": 79,
+   "kind": "map",
+   "path_x": 2
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 36,
+   "hp": 79,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 36,
+   "hp": 79,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 36,
+   "hp": 79,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 3
+   },
+   "floor": 36,
+   "hp": 79,
+   "kind": "map",
+   "path_x": 3
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "leave?",
+    "proceed"
+   ],
+   "floor": 37,
+   "hp": 79,
+   "kind": "shop"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 3
+   },
+   "floor": 37,
+   "hp": 79,
+   "kind": "map",
+   "path_x": 3
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 38,
+   "hp": 79,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 38,
+   "hp": 79,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 38,
+   "hp": 79,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 4
+   },
+   "floor": 38,
+   "hp": 79,
+   "kind": "map",
+   "path_x": 4
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 39,
+   "hp": 79,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 39,
+   "hp": 79,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 4
+   },
+   "floor": 39,
+   "hp": 79,
+   "kind": "map",
+   "path_x": 4
+  },
+  {
+   "action": {
+    "action": {
+     "slot": 0,
+     "target": null,
+     "type": "use_potion"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "potion use 0"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 6,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 7"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5 0"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 40,
+   "hp": 79,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 40,
+   "hp": 76,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 40,
+   "hp": 76,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 40,
+   "hp": 76,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 40,
+   "hp": 76,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 40,
+   "hp": 83,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 40,
+   "hp": 83,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 4
+   },
+   "floor": 40,
+   "hp": 83,
+   "kind": "map",
+   "path_x": 4
+  },
+  {
+   "action": {
+    "type": "smith"
+   },
+   "cmds": [
+    "choose smith"
+   ],
+   "floor": 41,
+   "hp": 92,
+   "kind": "rest"
+  },
+  {
+   "action": {
+    "indices": [
+     2
+    ],
+    "type": "select"
+   },
+   "floor": 41,
+   "grid_deck": [
+    2
+   ],
+   "hp": 92,
+   "kind": "grid"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 4
+   },
+   "floor": 41,
+   "hp": 92,
+   "kind": "map",
+   "path_x": 4
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 42,
+   "hp": 92,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 42,
+   "hp": 92,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 42,
+   "hp": 92,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 42,
+   "hp": 92,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 42,
+   "hp": 92,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 42,
+   "hp": 92,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5 0"
+   ],
+   "floor": 42,
+   "hp": 92,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 42,
+   "hp": 92,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 42,
+   "hp": 92,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 42,
+   "hp": 92,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 42,
+   "hp": 92,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 42,
+   "hp": 92,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 42,
+   "hp": 83,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 42,
+   "hp": 83,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 42,
+   "hp": 83,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 1,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 1"
+   ],
+   "floor": 42,
+   "hp": 83,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 2,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 2"
+   ],
+   "floor": 42,
+   "hp": 83,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 42,
+   "hp": 90,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 42,
+   "hp": 90,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 3
+   },
+   "floor": 42,
+   "hp": 90,
+   "kind": "map",
+   "path_x": 3
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 43,
+   "hp": 90,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "indices": [
+     16
+    ],
+    "type": "select"
+   },
+   "floor": 43,
+   "grid_deck": [
+    16
+   ],
+   "hp": 90,
+   "kind": "grid"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 43,
+   "hp": 90,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 3
+   },
+   "floor": 43,
+   "hp": 90,
+   "kind": "map",
+   "path_x": 3
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 44,
+   "hp": 90,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 44,
+   "hp": 90,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 3
+   },
+   "floor": 44,
+   "hp": 90,
+   "kind": "map",
+   "path_x": 3
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 6,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 7 0"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 45,
+   "hp": 83,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 45,
+   "hp": 90,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 2
+   },
+   "floor": 45,
+   "hp": 90,
+   "kind": "map",
+   "path_x": 2
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 46,
+   "hp": 90,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "take_reward"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 46,
+   "hp": 94,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "proceed"
+   },
+   "cmds": [
+    "proceed"
+   ],
+   "floor": 46,
+   "hp": 94,
+   "kind": "rewards"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 2
+   },
+   "floor": 46,
+   "hp": 94,
+   "kind": "map",
+   "path_x": 2
+  },
+  {
+   "action": {
+    "type": "smith"
+   },
+   "cmds": [
+    "choose smith"
+   ],
+   "floor": 47,
+   "hp": 94,
+   "kind": "rest"
+  },
+  {
+   "action": {
+    "indices": [
+     3
+    ],
+    "type": "select"
+   },
+   "floor": 47,
+   "grid_deck": [
+    3
+   ],
+   "hp": 94,
+   "kind": "grid"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 1
+   },
+   "floor": 47,
+   "hp": 94,
+   "kind": "map",
+   "path_x": 1
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 48,
+   "hp": 94,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "index": 1,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 1"
+   ],
+   "floor": 48,
+   "hp": 94,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "index": 0,
+    "type": "event_choice"
+   },
+   "cmds": [
+    "choose 0"
+   ],
+   "floor": 48,
+   "hp": 94,
+   "kind": "event"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 2
+   },
+   "floor": 48,
+   "hp": 94,
+   "kind": "map",
+   "path_x": 2
+  },
+  {
+   "action": {
+    "type": "smith"
+   },
+   "cmds": [
+    "choose smith"
+   ],
+   "floor": 49,
+   "hp": 94,
+   "kind": "rest"
+  },
+  {
+   "action": {
+    "indices": [
+     4
+    ],
+    "type": "select"
+   },
+   "floor": 49,
+   "grid_deck": [
+    4
+   ],
+   "hp": 94,
+   "kind": "grid"
+  },
+  {
+   "action": {
+    "type": "path",
+    "x": 3
+   },
+   "floor": 49,
+   "hp": 94,
+   "kind": "map",
+   "path_x": 3
+  },
+  {
+   "action": {
+    "action": {
+     "slot": 0,
+     "target": null,
+     "type": "use_potion"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "potion use 0"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 6,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 7"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "slot": 1,
+     "target": null,
+     "type": "use_potion"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "potion use 1"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "slot": 2,
+     "target": null,
+     "type": "use_potion"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "potion use 2"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4 0"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3 0"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2 0"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 2,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 3"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 1,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 2"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 4,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 5"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 3,
+     "target": null,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 4"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "type": "end_turn"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "end"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  },
+  {
+   "action": {
+    "action": {
+     "hand_index": 0,
+     "target": 0,
+     "type": "play_card"
+    },
+    "type": "combat"
+   },
+   "cmds": [
+    "play 1 0"
+   ],
+   "floor": 50,
+   "hp": 94,
+   "kind": "combat"
+  }
+ ]
+}

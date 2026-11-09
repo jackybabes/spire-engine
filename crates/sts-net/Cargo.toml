@@ -1,0 +1,9 @@
+[package]
+name = "sts-net"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+sts-core = { path = "../sts-core" }
+sts-encode = { path = "../sts-encode" }
+serde_json = "1"

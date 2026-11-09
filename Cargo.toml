@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["crates/sts-rng", "crates/sts-core", "crates/sts-cli", "crates/sts-encode", "crates/sts-net", "crates/sts-py", "crates/sts-wasm"]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"

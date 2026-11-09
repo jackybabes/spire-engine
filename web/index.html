@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Spire Viewer</title>
+  <!-- Added to the home screen, it runs full screen, without the browser's bars. -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Spire Viewer">
+  <meta name="theme-color" content="#111110">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <script>
+    // The theme before the page draws (no flash): the saved choice, else the system's.
+    try { const t = localStorage.getItem("spire-viewer.theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="./" id="homelink">Spire Viewer</a>
+    <span id="runtitle"></span>
+    <nav id="controls" aria-label="Moving through the run" hidden>
+      <button id="first" aria-label="To the start (Home)" title="To the start (Home)">⏮</button>
+      <button id="back" aria-label="Back one decision (←)" title="Back one decision (←); nothing is dropped: choosing differently starts a variation">◀</button>
+      <button id="play" aria-label="Play or pause (space)" title="Play / pause (space)">▶</button>
+      <button id="fwd" aria-label="Forward one decision (→)" title="Forward one decision (→)">▶|</button>
+      <button id="last" aria-label="To the end (End)" title="To the end (End)">⏭</button>
+      <span id="pos" aria-live="polite">no run</span>
+      <span class="speed" role="group" aria-label="Playback speed">
+        <button id="slower" aria-label="Slower, 10% (−)" title="Slower, 10% (−)">−</button>
+        <span id="speedval" aria-live="polite">1.0 /s</span>
+        <button id="faster" aria-label="Faster, 10% (+)" title="Faster, 10% (+)">+</button>
+      </span>
+      <form id="jump"><label>Floor <input id="floor" type="number" min="0" max="60" size="3" inputmode="numeric"></label><button type="submit">Go</button></form>
+    </nav>
+    <span class="spacer"></span>
+    <button id="sidetoggle" title="The AI's advice and the decisions" aria-controls="side" aria-expanded="false">AI ▸</button>
+    <button id="link" hidden title="Copy a link to this decision">Copy<span class="wide"> link</span></button>
+    <button id="save" hidden title="Download this run and its variations as a file you can open again">Save<span class="wide"> run</span></button>
+    <label class="button" title="Open a run saved from this page or the training tools">Open<span class="wide"> run</span>… <input type="file" id="file" accept=".json,application/json" hidden></label>
+    <button id="theme" aria-label="Switch between the dark and light theme" title="Dark or light theme">◐</button>
+    <button id="help" aria-label="Controls: the keyboard shortcuts and how to play" title="Controls (?)">⌨<span class="wide"> Controls</span></button>
+  </header>
+
+  <div id="busy" role="status" hidden><span id="loading" class="loading"></span></div>
+  <div id="banner" role="alert" hidden><span id="bannertext"></span> <button id="bannerclose" aria-label="Close this message">×</button></div>
+
+  <div id="home">
+    <section class="hero">
+      <div class="herobanner" id="herobanner" aria-hidden="true"></div>
+      <h1>Watch an AI play <span class="accent">Slay the Spire</span></h1>
+      <p>Neural networks learned the game by playing it millions of times in a copy written in Rust.
+        Follow their runs one decision at a time, or play a run yourself with an AI at your side.</p>
+    </section>
+    <div id="continue" hidden></div>
+    <div class="choices">
+      <button class="choice" id="watch" disabled>
+        <i class="icon" aria-hidden="true">▶</i>
+        <b>Watch the AI win at ascension 20</b>
+        <span>The Ironclad on the hardest difficulty, start to finish. Press play, or step through it.</span>
+      </button>
+      <button class="choice primary" id="playchoice">
+        <i class="icon" aria-hidden="true">⚔</i>
+        <b>Play a run yourself</b>
+        <span>Pick a character, an ascension and a seed. Every card, relic and ascension is open. Pick an AI too, and it shows what it would do at every step and can play for you.</span>
+      </button>
+      <label class="choice" id="openchoice">
+        <i class="icon" aria-hidden="true">⤓</i>
+        <b>Open a saved run</b>
+        <span>A run you saved here, or one from the training tools. You can also drop the file anywhere on the page.</span>
+        <input type="file" id="file2" accept=".json,application/json" hidden>
+      </label>
+    </div>
+    <section id="aisbox" hidden>
+      <h2>The AIs</h2>
+      <div id="ais"></div>
+    </section>
+    <section id="install" class="install" hidden>
+      <div class="installicon" aria-hidden="true">📱</div>
+      <div>
+      <h2>Play on iPhone or iPad</h2>
+      <ol>
+        <li>Open this page in <b>Safari</b>.</li>
+        <li>Tap the <b>Share</b> button (the square with an arrow), then <b>Add to Home Screen</b>.</li>
+        <li>Open <b>Spire Viewer</b> from your home screen: it runs full screen, without Safari's bars.</li>
+        <li>Turn your phone sideways: the game plays in landscape.</li>
+      </ol>
+      <p class="dim small">Runs you play in the home-screen app are kept there, apart from the ones in Safari.</p>
+      </div>
+    </section>
+    <section id="gallerybox" hidden>
+      <h2>More runs to watch</h2>
+      <div id="gallery"></div>
+    </section>
+    <footer class="homefoot">An unofficial fan project for training and watching neural networks. Slay the Spire is
+      a game by Mega Crit; the figures and descriptions here were made for this site.</footer>
+  </div>
+
+  <div id="setup" hidden>
+    <form id="newrun">
+      <h1>Choose your character</h1>
+      <div class="chars" role="radiogroup" aria-label="Character">
+        <label class="char c-Red"><input type="radio" name="character" value="ironclad" checked><b>The Ironclad</b><span>80 HP · Burning Blood</span><em>Strength, Exhaust and big hits; heals after every fight.</em></label>
+        <label class="char c-Green"><input type="radio" name="character" value="silent"><b>The Silent</b><span>70 HP · Ring of the Snake</span><em>Poison, Shivs and discarding; slips damage with Block.</em></label>
+        <label class="char c-Blue"><input type="radio" name="character" value="defect"><b>The Defect</b><span>75 HP · Cracked Core</span><em>Channels Lightning, Frost, Dark and Plasma orbs.</em></label>
+        <label class="char c-Purple"><input type="radio" name="character" value="watcher"><b>The Watcher</b><span>72 HP · Pure Water</span><em>Steps between Calm and Wrath; Scry, Retain and Mantra.</em></label>
+      </div>
+      <div class="setuprow">
+        <div class="asc">
+          <h3>Ascension</h3>
+          <div class="stepper"><button type="button" id="ascdown" aria-label="Lower ascension">−</button><input id="ascension" type="number" min="0" max="20" value="0" inputmode="numeric" aria-label="Ascension"><button type="button" id="ascup" aria-label="Higher ascension">+</button></div>
+          <p id="ascdesc" class="dim"></p>
+        </div>
+        <div class="seedbox">
+          <h3>Seed</h3>
+          <input id="seed" placeholder="random" size="12" spellcheck="false" autocomplete="off" aria-label="Seed">
+          <p class="dim">Leave it empty for a random run, or type a seed (like L7WC) to play a run again.</p>
+        </div>
+      </div>
+      <div class="aibox">
+        <h3>AI</h3>
+        <div id="aichoices" role="radiogroup" aria-label="AI"></div>
+        <p class="dim">The AI shows what it would do at every decision and can play for you. It downloads once you pick it.</p>
+      </div>
+      <div class="setupbuttons"><button type="button" id="setupback">Back</button><button type="submit" class="primary" id="embark">Embark</button></div>
+    </form>
+  </div>
+
+  <div id="viewer" hidden>
+    <main>
+      <section aria-label="The current screen">
+        <div id="run" aria-label="The run"></div>
+        <div id="screen"></div>
+        <div id="actions"></div>
+      </section>
+      <aside id="side" aria-label="The AI's advice and the decisions">
+        <button id="sideclose" aria-label="Close this panel">× Close</button>
+        <section id="advice" aria-label="The AI's advice" hidden>
+          <div class="advhead"><h3>The AI's advice</h3>
+            <select id="aipick" aria-label="Which AI advises"></select></div>
+          <label class="small advhide" title="Keep the advice hidden until you have chosen, then see what the AI would have done"><input type="checkbox" id="advhide"> Hide until I choose</label>
+          <div id="advbody" aria-live="polite"></div>
+          <div class="advplay" role="group" aria-label="Let the AI play">
+            <span class="dim small">Let the AI play</span>
+            <button id="aione" title="The AI takes this decision (A)">this move</button>
+            <button id="aifloor" title="The AI plays until the next floor">to the next floor</button>
+            <button id="aiend" title="The AI plays the rest of the run">to the end</button>
+          </div>
+        </section>
+        <details id="logbox" open>
+          <summary><h3>Decisions <span id="logcount"></span></h3></summary>
+          <div id="logkey"></div>
+          <div id="log"></div>
+        </details>
+      </aside>
+    </main>
+  </div>
+
+  <div id="tip" role="tooltip" hidden></div>
+  <div id="modal" hidden>
+    <div class="modalbox" role="dialog" aria-modal="true" aria-labelledby="modaltitle">
+      <div class="modalhead"><h2 id="modaltitle"></h2><button id="modalclose" aria-label="Close">×</button></div>
+      <div id="modalbody"></div>
+      <div id="modalbuttons"></div>
+    </div>
+  </div>
+  <script type="module" src="app.js"></script>
+  <div id="rotate" role="dialog" aria-label="Turn your phone sideways">
+    <div class="rotatebox"><div class="rotateicon" aria-hidden="true">⟳</div>
+      <p><b>Turn your phone sideways to play.</b></p><p class="dim">The game plays in landscape, like the game itself.</p>
+      <button id="upright">Keep it upright</button></div>
+  </div>
+</body>
+</html>

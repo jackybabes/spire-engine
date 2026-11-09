@@ -1,0 +1,1 @@
+{"bias": -5.7280138462645525, "value": 0.8873641533128895, "floor": 0.02326145059280679, "ascension": 0.44699341235607054, "ascension2": -0.015401816359884654, "value_ascension": -0.023815638136885427, "value_floor": 0.0004117984302119472, "fit": "2560 greedy runs of dh12 update 200, A0,5,10,15,20; held-out log loss 0.350 (constant 0.574)"}

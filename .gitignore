@@ -1,0 +1,41 @@
+/target/
+
+# The decompiled game (reference/) is tracked in this private repository (jack, 2026-10-22), but
+# not the game's compiled classes (re-extracted from its jar). tools/publish/export.py never
+# publishes reference/ or harness/.
+/reference/classes/
+*.class
+sendToDevs/
+
+# The harness: tracked are the real-game recordings (traces/), the soaks (soak/, without their
+# long console logs) and saved runs (watch/, playback/). The rest is rebuilt by
+# tools/trace/setup.sh (src/: ModTheSpire, BaseMod and CommunicationMod with tools/trace/*.patch;
+# the game folders, whose jar and JRE link to the installed game), holds copies of network
+# checkpoints (advisor/, probe/, human/), or is the game's profile (game/betaPreferences: no longer
+# tracked from 2026-10-26, jack, as every game played changes it; its last version is in history).
+/harness/*
+!/harness/traces/
+!/harness/soak/
+!/harness/watch/
+!/harness/playback/
+/harness/soak/**/*.out
+/harness/soak/*.out
+
+# The built Python module (python/build.sh).
+python/*.so
+__pycache__/
+.venv/
+
+# Training runs (checkpoints, logs, live chart): python/training/train_fights.py.
+python/runs/
+
+# The engine for the browser, built by web/build.sh
+web/sts.wasm
+
+# Released network weights (GitHub releases; never in git)
+web/models/
+
+# The hosted viewer, built by web/build_site.py
+web/dist/
+web/dist-assets/
+.wrangler/

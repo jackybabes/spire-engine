@@ -1,0 +1,5281 @@
+{
+ "checkpoint": "harness/watch/df0_update_200.pt",
+ "update": 200,
+ "fights": [
+  {
+   "act": 1,
+   "ascension": 0,
+   "character": "defect",
+   "deck": [
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Defend",
+    "Defend",
+    "Defend",
+    "Defend",
+    "Zap",
+    "Dualcast",
+    "Sunder"
+   ],
+   "encounter": "Blue Slaver",
+   "floor": 4,
+   "harness": [
+    {
+     "relics": [
+      "Cracked Core",
+      "Symbiotic Virus",
+      "Old Coin",
+      "Happy Flower"
+     ]
+    },
+    {
+     "deck": [
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Zap",
+       0
+      ],
+      [
+       "Dualcast",
+       0
+      ],
+      [
+       "Sunder",
+       0
+      ]
+     ],
+     "encounter": "Blue Slaver",
+     "hp": 43,
+     "max_hp": 76,
+     "potions": [
+      "CultistPotion",
+      "Regen Potion"
+     ]
+    }
+   ],
+   "hp": 45,
+   "max_hp": 76,
+   "moves": [
+    {
+     "action": {
+      "slot": 1,
+      "target": null,
+      "type": "use_potion"
+     },
+     "cmds": [
+      "potion use 1"
+     ],
+     "hp": 43,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 43,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 43,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 43,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 43,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 48,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 48,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 45,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 45,
+     "turn": 3
+    }
+   ],
+   "potions": 1,
+   "practice": "grown",
+   "seed": 900003,
+   "seed_string": "KZPD",
+   "steps": 9,
+   "timed_out": false,
+   "won": true
+  },
+  {
+   "act": 1,
+   "ascension": 0,
+   "character": "defect",
+   "deck": [
+    "Strike",
+    "Strike+",
+    "Strike",
+    "Strike+",
+    "Defend",
+    "Defend",
+    "Defend+",
+    "Defend",
+    "Zap",
+    "Dualcast",
+    "Sweeping Beam",
+    "Heatsinks",
+    "Streamline",
+    "Barrage"
+   ],
+   "encounter": "Looter",
+   "floor": 6,
+   "harness": [
+    {
+     "relics": [
+      "Cracked Core",
+      "Bronze Scales",
+      "Smiling Mask",
+      "TungstenRod",
+      "Boot",
+      "Happy Flower"
+     ]
+    },
+    {
+     "deck": [
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Strike_B",
+       1
+      ],
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Strike_B",
+       1
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       1
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Zap",
+       0
+      ],
+      [
+       "Dualcast",
+       0
+      ],
+      [
+       "Sweeping Beam",
+       0
+      ],
+      [
+       "Heatsinks",
+       0
+      ],
+      [
+       "Streamline",
+       0
+      ],
+      [
+       "Barrage",
+       0
+      ]
+     ],
+     "encounter": "Looter",
+     "hp": 53,
+     "max_hp": 81,
+     "potions": [
+      "BlessingOfTheForge",
+      "Weak Potion"
+     ]
+    }
+   ],
+   "hp": 44,
+   "max_hp": 81,
+   "moves": [
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 53,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 53,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 53,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 53,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 44,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 44,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 44,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 44,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 44,
+     "turn": 3
+    }
+   ],
+   "potions": 2,
+   "practice": "grown",
+   "seed": 900086,
+   "seed_string": "KZRR",
+   "steps": 9,
+   "timed_out": false,
+   "won": true
+  },
+  {
+   "act": 1,
+   "ascension": 0,
+   "character": "defect",
+   "deck": [
+    "Claw",
+    "Beam Cell",
+    "Rip and Tear",
+    "Sweeping Beam+",
+    "Meteor Strike",
+    "Barrage",
+    "Core Surge+",
+    "Charge Battery",
+    "Defragment",
+    "Loop",
+    "Compile Driver+",
+    "Melter",
+    "Coolheaded+",
+    "Tempest",
+    "Coolheaded"
+   ],
+   "encounter": "Red Slaver",
+   "floor": 4,
+   "harness": [
+    {
+     "relics": [
+      "Cracked Core",
+      "Bronze Scales",
+      "Pen Nib",
+      "Letter Opener",
+      "Strawberry"
+     ]
+    },
+    {
+     "deck": [
+      [
+       "Gash",
+       0
+      ],
+      [
+       "Beam Cell",
+       0
+      ],
+      [
+       "Rip and Tear",
+       0
+      ],
+      [
+       "Sweeping Beam",
+       1
+      ],
+      [
+       "Meteor Strike",
+       0
+      ],
+      [
+       "Barrage",
+       0
+      ],
+      [
+       "Core Surge",
+       1
+      ],
+      [
+       "Conserve Battery",
+       0
+      ],
+      [
+       "Defragment",
+       0
+      ],
+      [
+       "Loop",
+       0
+      ],
+      [
+       "Compile Driver",
+       1
+      ],
+      [
+       "Melter",
+       0
+      ],
+      [
+       "Coolheaded",
+       1
+      ],
+      [
+       "Tempest",
+       0
+      ],
+      [
+       "Coolheaded",
+       0
+      ]
+     ],
+     "encounter": "Red Slaver",
+     "hp": 66,
+     "max_hp": 88,
+     "potions": []
+    }
+   ],
+   "hp": 57,
+   "max_hp": 88,
+   "moves": [
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 66,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 66,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 66,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 66,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5 0"
+     ],
+     "hp": 66,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 66,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 57,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 57,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 57,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 57,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 57,
+     "turn": 2
+    }
+   ],
+   "potions": 0,
+   "practice": "random",
+   "seed": 900043,
+   "seed_string": "KZQI",
+   "steps": 11,
+   "timed_out": false,
+   "won": true
+  },
+  {
+   "act": 1,
+   "ascension": 10,
+   "character": "defect",
+   "deck": [
+    "Strike+",
+    "Defend",
+    "Defend",
+    "Defend",
+    "Defend",
+    "Zap",
+    "Dualcast",
+    "Defragment",
+    "Electrodynamics",
+    "Defragment",
+    "Reinforced Body",
+    "Chill"
+   ],
+   "encounter": "Exordium Wildlife",
+   "floor": 12,
+   "harness": [
+    {
+     "relics": [
+      "Cracked Core",
+      "Emotion Chip"
+     ]
+    },
+    {
+     "deck": [
+      [
+       "Strike_B",
+       1
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Zap",
+       0
+      ],
+      [
+       "Dualcast",
+       0
+      ],
+      [
+       "Defragment",
+       0
+      ],
+      [
+       "Electrodynamics",
+       0
+      ],
+      [
+       "Defragment",
+       0
+      ],
+      [
+       "Reinforced Body",
+       0
+      ],
+      [
+       "Chill",
+       0
+      ]
+     ],
+     "encounter": "Exordium Wildlife",
+     "hp": 56,
+     "max_hp": 81,
+     "potions": [
+      "FearPotion"
+     ]
+    }
+   ],
+   "hp": 49,
+   "max_hp": 81,
+   "moves": [
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 56,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 56,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 56,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 49,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 49,
+     "turn": 2
+    }
+   ],
+   "potions": 1,
+   "practice": "frost",
+   "seed": 900036,
+   "seed_string": "KZQB",
+   "steps": 5,
+   "timed_out": false,
+   "won": true
+  },
+  {
+   "act": 2,
+   "ascension": 3,
+   "character": "defect",
+   "deck": [
+    "Streamline",
+    "Boot Sequence",
+    "Go for the Eyes",
+    "Melter",
+    "Recursion",
+    "Coolheaded+",
+    "Recursion",
+    "TURBO",
+    "Sweeping Beam",
+    "Barrage",
+    "Go for the Eyes+",
+    "Coolheaded",
+    "Barrage",
+    "Chill",
+    "Cold Snap",
+    "Loop",
+    "Claw",
+    "Recycle+",
+    "Auto-Shields",
+    "Hologram",
+    "Defragment",
+    "Recursion"
+   ],
+   "encounter": "Book of Stabbing",
+   "floor": 29,
+   "harness": [
+    {
+     "relics": [
+      "Cracked Core",
+      "Runic Pyramid",
+      "Cables",
+      "Bronze Scales",
+      "Girya",
+      "Lantern",
+      "Potion Belt",
+      "Incense Burner",
+      "White Beast Statue"
+     ]
+    },
+    {
+     "deck": [
+      [
+       "Streamline",
+       0
+      ],
+      [
+       "BootSequence",
+       0
+      ],
+      [
+       "Go for the Eyes",
+       0
+      ],
+      [
+       "Melter",
+       0
+      ],
+      [
+       "Redo",
+       0
+      ],
+      [
+       "Coolheaded",
+       1
+      ],
+      [
+       "Redo",
+       0
+      ],
+      [
+       "Turbo",
+       0
+      ],
+      [
+       "Sweeping Beam",
+       0
+      ],
+      [
+       "Barrage",
+       0
+      ],
+      [
+       "Go for the Eyes",
+       1
+      ],
+      [
+       "Coolheaded",
+       0
+      ],
+      [
+       "Barrage",
+       0
+      ],
+      [
+       "Chill",
+       0
+      ],
+      [
+       "Cold Snap",
+       0
+      ],
+      [
+       "Loop",
+       0
+      ],
+      [
+       "Gash",
+       0
+      ],
+      [
+       "Recycle",
+       1
+      ],
+      [
+       "Auto Shields",
+       0
+      ],
+      [
+       "Hologram",
+       0
+      ],
+      [
+       "Defragment",
+       0
+      ],
+      [
+       "Redo",
+       0
+      ]
+     ],
+     "encounter": "Book of Stabbing",
+     "hp": 43,
+     "max_hp": 85,
+     "potions": [
+      "Regen Potion",
+      "Energy Potion"
+     ]
+    }
+   ],
+   "hp": 52,
+   "max_hp": 85,
+   "moves": [
+    {
+     "action": {
+      "slot": 0,
+      "target": null,
+      "type": "use_potion"
+     },
+     "cmds": [
+      "potion use 0"
+     ],
+     "hp": 43,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 43,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 43,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 43,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 43,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 43,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 43,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 43,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 48,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 48,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 48,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 48,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 48,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 50,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 6,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 7"
+     ],
+     "hp": 50,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 50,
+     "turn": 3
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 50,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 6,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 7 0"
+     ],
+     "hp": 49,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 8,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 9 0"
+     ],
+     "hp": 49,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 5,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 6 0"
+     ],
+     "hp": 49,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 49,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 49,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 49,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 49,
+     "turn": 4
+    },
+    {
+     "action": {
+      "indices": [
+       2
+      ],
+      "type": "choose"
+     },
+     "cmds": [
+      "choose 2",
+      "confirm?"
+     ],
+     "hp": 49,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 49,
+     "turn": 4
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 49,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 51,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 51,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 51,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 51,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 51,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 51,
+     "turn": 5
+    },
+    {
+     "action": {
+      "indices": [
+       13
+      ],
+      "type": "choose"
+     },
+     "cmds": [
+      "choose 13",
+      "confirm?"
+     ],
+     "hp": 51,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 51,
+     "turn": 5
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 51,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 52,
+     "turn": 6
+    }
+   ],
+   "potions": 1,
+   "practice": "random",
+   "seed": 900001,
+   "seed_string": "KZPB",
+   "steps": 37,
+   "timed_out": false,
+   "won": true
+  },
+  {
+   "act": 2,
+   "ascension": 3,
+   "character": "defect",
+   "deck": [
+    "Strike",
+    "Strike",
+    "Strike+",
+    "Strike",
+    "Defend+",
+    "Defend",
+    "Defend",
+    "Defend+",
+    "Zap",
+    "Dualcast",
+    "Bullseye",
+    "TURBO",
+    "Loop",
+    "Blizzard",
+    "Beam Cell+",
+    "Force Field",
+    "Charge Battery+",
+    "Storm",
+    "Go for the Eyes+",
+    "Self Repair",
+    "Skim",
+    "White Noise",
+    "Streamline",
+    "Darkness",
+    "Force Field+",
+    "Storm"
+   ],
+   "encounter": "Book of Stabbing",
+   "floor": 23,
+   "harness": [
+    {
+     "relics": [
+      "Cracked Core",
+      "Cursed Key",
+      "Symbiotic Virus",
+      "Incense Burner",
+      "Kunai",
+      "War Paint",
+      "MealTicket",
+      "Whetstone",
+      "Matryoshka"
+     ]
+    },
+    {
+     "deck": [
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Strike_B",
+       1
+      ],
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Defend_B",
+       1
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       1
+      ],
+      [
+       "Zap",
+       0
+      ],
+      [
+       "Dualcast",
+       0
+      ],
+      [
+       "Lockon",
+       0
+      ],
+      [
+       "Turbo",
+       0
+      ],
+      [
+       "Loop",
+       0
+      ],
+      [
+       "Blizzard",
+       0
+      ],
+      [
+       "Beam Cell",
+       1
+      ],
+      [
+       "Force Field",
+       0
+      ],
+      [
+       "Conserve Battery",
+       1
+      ],
+      [
+       "Storm",
+       0
+      ],
+      [
+       "Go for the Eyes",
+       1
+      ],
+      [
+       "Self Repair",
+       0
+      ],
+      [
+       "Skim",
+       0
+      ],
+      [
+       "White Noise",
+       0
+      ],
+      [
+       "Streamline",
+       0
+      ],
+      [
+       "Darkness",
+       0
+      ],
+      [
+       "Force Field",
+       1
+      ],
+      [
+       "Storm",
+       0
+      ]
+     ],
+     "encounter": "Book of Stabbing",
+     "hp": 67,
+     "max_hp": 78,
+     "potions": [
+      "Energy Potion"
+     ]
+    }
+   ],
+   "hp": 23,
+   "max_hp": 78,
+   "moves": [
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 67,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 67,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 67,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 67,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 67,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5 0"
+     ],
+     "hp": 53,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 53,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 53,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 53,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 53,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 37,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 37,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 37,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 37,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 37,
+     "turn": 3
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 37,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 26,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 26,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 26,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 26,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 26,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 26,
+     "turn": 4
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 26,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 16,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 16,
+     "turn": 5
+    }
+   ],
+   "potions": 1,
+   "practice": "grown",
+   "seed": 900060,
+   "seed_string": "KZR0",
+   "steps": 25,
+   "timed_out": false,
+   "won": true
+  },
+  {
+   "act": 2,
+   "ascension": 5,
+   "character": "defect",
+   "deck": [
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Defend",
+    "Defend",
+    "Defend",
+    "Defend",
+    "Zap+",
+    "Dualcast",
+    "Equilibrium",
+    "Beam Cell+",
+    "Consume",
+    "Bullseye",
+    "Fusion+",
+    "Streamline",
+    "Biased Cognition",
+    "Stack+",
+    "Hologram"
+   ],
+   "encounter": "Centurion and Healer",
+   "floor": 20,
+   "harness": [
+    {
+     "relics": [
+      "Cracked Core",
+      "SlaversCollar",
+      "Blood Vial",
+      "Ice Cream",
+      "Toy Ornithopter",
+      "Letter Opener",
+      "Toxic Egg 2"
+     ]
+    },
+    {
+     "deck": [
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Zap",
+       1
+      ],
+      [
+       "Dualcast",
+       0
+      ],
+      [
+       "Undo",
+       0
+      ],
+      [
+       "Beam Cell",
+       1
+      ],
+      [
+       "Consume",
+       0
+      ],
+      [
+       "Lockon",
+       0
+      ],
+      [
+       "Fusion",
+       1
+      ],
+      [
+       "Streamline",
+       0
+      ],
+      [
+       "Biased Cognition",
+       0
+      ],
+      [
+       "Stack",
+       1
+      ],
+      [
+       "Hologram",
+       0
+      ]
+     ],
+     "encounter": "Centurion and Healer",
+     "hp": 43,
+     "max_hp": 77,
+     "potions": []
+    }
+   ],
+   "hp": 36,
+   "max_hp": 77,
+   "moves": [
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 45,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 45,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 45,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 45,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 45,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5 0"
+     ],
+     "hp": 36,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 36,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 36,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 36,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 36,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 36,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 36,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 36,
+     "turn": 3
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 36,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 36,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 36,
+     "turn": 4
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 36,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 5,
+      "target": 1,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 6 1"
+     ],
+     "hp": 36,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 36,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 1,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 1"
+     ],
+     "hp": 36,
+     "turn": 5
+    }
+   ],
+   "potions": 0,
+   "practice": "grown",
+   "seed": 900063,
+   "seed_string": "KZR3",
+   "steps": 20,
+   "timed_out": false,
+   "won": true
+  },
+  {
+   "act": 2,
+   "ascension": 3,
+   "character": "defect",
+   "deck": [
+    "Strike",
+    "Strike",
+    "Defend",
+    "Zap+",
+    "Dualcast",
+    "Coolheaded",
+    "Glacier+",
+    "Self Repair",
+    "Reinforced Body",
+    "Boot Sequence+",
+    "Go for the Eyes",
+    "Barrage",
+    "Go for the Eyes",
+    "Barrage+",
+    "Loop",
+    "Barrage",
+    "Capacitor",
+    "Reinforced Body",
+    "Chill+"
+   ],
+   "encounter": "Chosen and Byrds",
+   "floor": 28,
+   "harness": [
+    {
+     "relics": [
+      "Cracked Core",
+      "Inserter",
+      "Question Card",
+      "Prayer Wheel",
+      "Frozen Egg 2",
+      "TungstenRod",
+      "MealTicket",
+      "Boot",
+      "Omamori",
+      "Smiling Mask",
+      "MawBank",
+      "Meat on the Bone"
+     ]
+    },
+    {
+     "deck": [
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Zap",
+       1
+      ],
+      [
+       "Dualcast",
+       0
+      ],
+      [
+       "Coolheaded",
+       0
+      ],
+      [
+       "Glacier",
+       1
+      ],
+      [
+       "Self Repair",
+       0
+      ],
+      [
+       "Reinforced Body",
+       0
+      ],
+      [
+       "BootSequence",
+       1
+      ],
+      [
+       "Go for the Eyes",
+       0
+      ],
+      [
+       "Barrage",
+       0
+      ],
+      [
+       "Go for the Eyes",
+       0
+      ],
+      [
+       "Barrage",
+       1
+      ],
+      [
+       "Loop",
+       0
+      ],
+      [
+       "Barrage",
+       0
+      ],
+      [
+       "Capacitor",
+       0
+      ],
+      [
+       "Reinforced Body",
+       0
+      ],
+      [
+       "Chill",
+       1
+      ]
+     ],
+     "encounter": "Chosen and Byrds",
+     "hp": 74,
+     "max_hp": 81,
+     "potions": [
+      "EssenceOfDarkness",
+      "Regen Potion"
+     ]
+    }
+   ],
+   "hp": 81,
+   "max_hp": 81,
+   "moves": [
+    {
+     "action": {
+      "slot": 1,
+      "target": null,
+      "type": "use_potion"
+     },
+     "cmds": [
+      "potion use 1"
+     ],
+     "hp": 74,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 74,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 74,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 74,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 74,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 74,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 74,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 1,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 1"
+     ],
+     "hp": 79,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 79,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 1,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 1"
+     ],
+     "hp": 79,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 1,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 1"
+     ],
+     "hp": 79,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 79,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 81,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 81,
+     "turn": 3
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 81,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 1,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 1"
+     ],
+     "hp": 81,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 81,
+     "turn": 4
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 81,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 1,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 1"
+     ],
+     "hp": 81,
+     "turn": 5
+    }
+   ],
+   "potions": 1,
+   "practice": "frost",
+   "seed": 900071,
+   "seed_string": "KZRB",
+   "steps": 19,
+   "timed_out": false,
+   "won": true
+  },
+  {
+   "act": 3,
+   "ascension": 7,
+   "character": "defect",
+   "deck": [
+    "Strike",
+    "Zap+",
+    "Dualcast",
+    "All for One",
+    "Scrape+",
+    "Claw+",
+    "White Noise",
+    "Glacier",
+    "Rebound",
+    "White Noise",
+    "Beam Cell",
+    "Seek",
+    "Streamline+",
+    "Beam Cell+",
+    "Go for the Eyes",
+    "Beam Cell",
+    "Rebound",
+    "Claw",
+    "Go for the Eyes",
+    "Beam Cell",
+    "White Noise+",
+    "Hologram+",
+    "Rebound",
+    "Streamline+"
+   ],
+   "encounter": "4 Shapes",
+   "floor": 41,
+   "harness": [
+    {
+     "relics": [
+      "FrozenCore",
+      "SacredBark",
+      "Lantern",
+      "Du-Vu Doll",
+      "Toy Ornithopter",
+      "Bronze Scales",
+      "Juzu Bracelet",
+      "Ancient Tea Set",
+      "Boot",
+      "Toxic Egg 2",
+      "Blood Vial",
+      "Meat on the Bone",
+      "Letter Opener",
+      "Vajra",
+      "Art of War"
+     ]
+    },
+    {
+     "deck": [
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Zap",
+       1
+      ],
+      [
+       "Dualcast",
+       0
+      ],
+      [
+       "All For One",
+       0
+      ],
+      [
+       "Scrape",
+       1
+      ],
+      [
+       "Gash",
+       1
+      ],
+      [
+       "White Noise",
+       0
+      ],
+      [
+       "Glacier",
+       0
+      ],
+      [
+       "Rebound",
+       0
+      ],
+      [
+       "White Noise",
+       0
+      ],
+      [
+       "Beam Cell",
+       0
+      ],
+      [
+       "Seek",
+       0
+      ],
+      [
+       "Streamline",
+       1
+      ],
+      [
+       "Beam Cell",
+       1
+      ],
+      [
+       "Go for the Eyes",
+       0
+      ],
+      [
+       "Beam Cell",
+       0
+      ],
+      [
+       "Rebound",
+       0
+      ],
+      [
+       "Gash",
+       0
+      ],
+      [
+       "Go for the Eyes",
+       0
+      ],
+      [
+       "Beam Cell",
+       0
+      ],
+      [
+       "White Noise",
+       1
+      ],
+      [
+       "Hologram",
+       1
+      ],
+      [
+       "Rebound",
+       0
+      ],
+      [
+       "Streamline",
+       1
+      ]
+     ],
+     "encounter": "4 Shapes",
+     "hp": 57,
+     "max_hp": 86,
+     "potions": [
+      "ColorlessPotion",
+      "AttackPotion",
+      "Explosive Potion"
+     ]
+    }
+   ],
+   "hp": 40,
+   "max_hp": 86,
+   "moves": [
+    {
+     "action": {
+      "hand_index": 4,
+      "target": 3,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5 3"
+     ],
+     "hp": 59,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 59,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 3,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 3"
+     ],
+     "hp": 59,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 59,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 59,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 59,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 59,
+     "turn": 1
+    },
+    {
+     "action": {
+      "slot": 1,
+      "target": null,
+      "type": "use_potion"
+     },
+     "cmds": [
+      "potion use 1"
+     ],
+     "hp": 59,
+     "turn": 1
+    },
+    {
+     "action": {
+      "indices": [
+       0
+      ],
+      "type": "choose"
+     },
+     "cmds": [
+      "choose 0",
+      "confirm?"
+     ],
+     "hp": 59,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 3,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 3"
+     ],
+     "hp": 64,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 64,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 64,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 55,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 55,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 55,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 55,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 55,
+     "turn": 3
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 55,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 55,
+     "turn": 4
+    },
+    {
+     "action": {
+      "indices": [
+       3
+      ],
+      "type": "choose"
+     },
+     "cmds": [
+      "choose 3",
+      "confirm?"
+     ],
+     "hp": 55,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 55,
+     "turn": 4
+    },
+    {
+     "action": {
+      "indices": [
+       2
+      ],
+      "type": "choose"
+     },
+     "cmds": [
+      "choose 0",
+      "confirm?"
+     ],
+     "hp": 55,
+     "turn": 4
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 55,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 42,
+     "turn": 5
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 42,
+     "turn": 5
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 42,
+     "turn": 6
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 28,
+     "turn": 7
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 28,
+     "turn": 7
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 28,
+     "turn": 8
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 28,
+     "turn": 8
+    }
+   ],
+   "potions": 2,
+   "practice": "zero_cost",
+   "seed": 900027,
+   "seed_string": "KZQ2",
+   "steps": 30,
+   "timed_out": false,
+   "won": true
+  },
+  {
+   "act": 3,
+   "ascension": 3,
+   "character": "defect",
+   "deck": [
+    "Strike+",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Defend",
+    "Defend",
+    "Defend",
+    "Defend",
+    "Zap",
+    "Dualcast",
+    "FTL+",
+    "Core Surge+",
+    "Cold Snap",
+    "Stack+",
+    "Chill+",
+    "Cold Snap+",
+    "Beam Cell",
+    "Coolheaded",
+    "Claw+",
+    "White Noise",
+    "Hologram",
+    "Static Discharge",
+    "Barrage+"
+   ],
+   "encounter": "Giant Head",
+   "floor": 48,
+   "harness": [
+    {
+     "relics": [
+      "Cracked Core",
+      "Coffee Dripper",
+      "Busted Crown",
+      "Smiling Mask",
+      "Regal Pillow",
+      "Gremlin Horn",
+      "HornCleat",
+      "DataDisk",
+      "Juzu Bracelet",
+      "Frozen Egg 2",
+      "Cables",
+      "Lantern",
+      "Omamori",
+      "Shuriken",
+      "Oddly Smooth Stone",
+      "Sundial"
+     ]
+    },
+    {
+     "deck": [
+      [
+       "Strike_B",
+       1
+      ],
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Zap",
+       0
+      ],
+      [
+       "Dualcast",
+       0
+      ],
+      [
+       "FTL",
+       1
+      ],
+      [
+       "Core Surge",
+       1
+      ],
+      [
+       "Cold Snap",
+       0
+      ],
+      [
+       "Stack",
+       1
+      ],
+      [
+       "Chill",
+       1
+      ],
+      [
+       "Cold Snap",
+       1
+      ],
+      [
+       "Beam Cell",
+       0
+      ],
+      [
+       "Coolheaded",
+       0
+      ],
+      [
+       "Gash",
+       1
+      ],
+      [
+       "White Noise",
+       0
+      ],
+      [
+       "Hologram",
+       0
+      ],
+      [
+       "Static Discharge",
+       0
+      ],
+      [
+       "Barrage",
+       1
+      ]
+     ],
+     "encounter": "Giant Head",
+     "hp": 50,
+     "max_hp": 92,
+     "potions": [
+      "SkillPotion",
+      "Dexterity Potion"
+     ]
+    }
+   ],
+   "hp": 3,
+   "max_hp": 92,
+   "moves": [
+    {
+     "action": {
+      "slot": 1,
+      "target": null,
+      "type": "use_potion"
+     },
+     "cmds": [
+      "potion use 1"
+     ],
+     "hp": 50,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 50,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 50,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 50,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 50,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 50,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 50,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 50,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 50,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 50,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 50,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 50,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 50,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 50,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 50,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 50,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 50,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 50,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 50,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 50,
+     "turn": 3
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 50,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 50,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 50,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 50,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 50,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 50,
+     "turn": 5
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 50,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 32,
+     "turn": 6
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 32,
+     "turn": 6
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 32,
+     "turn": 6
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 32,
+     "turn": 6
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 32,
+     "turn": 6
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 32,
+     "turn": 6
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 32,
+     "turn": 6
+    },
+    {
+     "action": {
+      "hand_index": 6,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 7 0"
+     ],
+     "hp": 24,
+     "turn": 7
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 24,
+     "turn": 7
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5 0"
+     ],
+     "hp": 24,
+     "turn": 7
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 24,
+     "turn": 7
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 24,
+     "turn": 7
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 24,
+     "turn": 7
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 24,
+     "turn": 7
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 24,
+     "turn": 7
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 3,
+     "turn": 8
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5 0"
+     ],
+     "hp": 3,
+     "turn": 8
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 3,
+     "turn": 8
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5 0"
+     ],
+     "hp": 3,
+     "turn": 8
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 3,
+     "turn": 8
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 3,
+     "turn": 8
+    }
+   ],
+   "potions": 1,
+   "practice": "grown",
+   "seed": 900028,
+   "seed_string": "KZQ3",
+   "steps": 56,
+   "timed_out": false,
+   "won": true
+  },
+  {
+   "act": 3,
+   "ascension": 10,
+   "character": "defect",
+   "deck": [
+    "Strike",
+    "Defend",
+    "Defend",
+    "Zap",
+    "Dualcast",
+    "Recursion",
+    "Doom and Gloom",
+    "Darkness",
+    "Echo Form",
+    "Glacier+",
+    "TURBO",
+    "Double Energy+",
+    "Consume+",
+    "Consume",
+    "Consume",
+    "TURBO",
+    "Aggregate",
+    "Aggregate+",
+    "Capacitor",
+    "Capacitor+",
+    "Coolheaded+",
+    "Double Energy",
+    "Coolheaded+"
+   ],
+   "encounter": "Reptomancer",
+   "floor": 36,
+   "harness": [
+    {
+     "relics": [
+      "Cracked Core",
+      "Inserter",
+      "Runic Pyramid",
+      "Shuriken",
+      "Eternal Feather",
+      "Akabeko",
+      "Dream Catcher",
+      "Centennial Puzzle",
+      "Boot",
+      "HornCleat",
+      "Juzu Bracelet",
+      "Vajra",
+      "Calipers",
+      "Toy Ornithopter",
+      "MealTicket",
+      "Frozen Egg 2",
+      "Question Card",
+      "Pantograph"
+     ]
+    },
+    {
+     "deck": [
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Defend_B",
+       0
+      ],
+      [
+       "Zap",
+       0
+      ],
+      [
+       "Dualcast",
+       0
+      ],
+      [
+       "Redo",
+       0
+      ],
+      [
+       "Doom and Gloom",
+       0
+      ],
+      [
+       "Darkness",
+       0
+      ],
+      [
+       "Echo Form",
+       0
+      ],
+      [
+       "Glacier",
+       1
+      ],
+      [
+       "Turbo",
+       0
+      ],
+      [
+       "Double Energy",
+       1
+      ],
+      [
+       "Consume",
+       1
+      ],
+      [
+       "Consume",
+       0
+      ],
+      [
+       "Consume",
+       0
+      ],
+      [
+       "Turbo",
+       0
+      ],
+      [
+       "Aggregate",
+       0
+      ],
+      [
+       "Aggregate",
+       1
+      ],
+      [
+       "Capacitor",
+       0
+      ],
+      [
+       "Capacitor",
+       1
+      ],
+      [
+       "Coolheaded",
+       1
+      ],
+      [
+       "Double Energy",
+       0
+      ],
+      [
+       "Coolheaded",
+       1
+      ]
+     ],
+     "encounter": "Reptomancer",
+     "hp": 48,
+     "max_hp": 82,
+     "potions": [
+      "SneckoOil",
+      "BlessingOfTheForge",
+      "CultistPotion"
+     ]
+    }
+   ],
+   "hp": 45,
+   "max_hp": 82,
+   "moves": [
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 48,
+     "turn": 1
+    },
+    {
+     "action": {
+      "slot": 1,
+      "target": null,
+      "type": "use_potion"
+     },
+     "cmds": [
+      "potion use 1"
+     ],
+     "hp": 48,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 53,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 53,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 53,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 53,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 53,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 53,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 53,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 53,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 6,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 7"
+     ],
+     "hp": 53,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 53,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 53,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 53,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 53,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 53,
+     "turn": 3
+    },
+    {
+     "action": {
+      "slot": 0,
+      "target": null,
+      "type": "use_potion"
+     },
+     "cmds": [
+      "potion use 0"
+     ],
+     "hp": 53,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 8,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 9"
+     ],
+     "hp": 58,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 58,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 58,
+     "turn": 3
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 58,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 6,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 7"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 5,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 6"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 50,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 6,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 7"
+     ],
+     "hp": 50,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 50,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 50,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 1,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 2"
+     ],
+     "hp": 50,
+     "turn": 5
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 50,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 6,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 7"
+     ],
+     "hp": 45,
+     "turn": 6
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 45,
+     "turn": 6
+    },
+    {
+     "action": {
+      "hand_index": 7,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 8"
+     ],
+     "hp": 45,
+     "turn": 7
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 45,
+     "turn": 7
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 45,
+     "turn": 8
+    },
+    {
+     "action": {
+      "hand_index": 6,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 7"
+     ],
+     "hp": 45,
+     "turn": 8
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 45,
+     "turn": 8
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 45,
+     "turn": 9
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 45,
+     "turn": 9
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 45,
+     "turn": 9
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 45,
+     "turn": 10
+    },
+    {
+     "action": {
+      "hand_index": 8,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 9"
+     ],
+     "hp": 45,
+     "turn": 10
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 45,
+     "turn": 10
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 45,
+     "turn": 10
+    },
+    {
+     "action": {
+      "hand_index": 5,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 6"
+     ],
+     "hp": 45,
+     "turn": 10
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": 1,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5 2"
+     ],
+     "hp": 45,
+     "turn": 10
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 45,
+     "turn": 10
+    },
+    {
+     "action": {
+      "hand_index": 5,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 6"
+     ],
+     "hp": 45,
+     "turn": 11
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 45,
+     "turn": 11
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 45,
+     "turn": 11
+    },
+    {
+     "action": {
+      "hand_index": 5,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 6"
+     ],
+     "hp": 45,
+     "turn": 11
+    },
+    {
+     "action": {
+      "hand_index": 5,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 6"
+     ],
+     "hp": 45,
+     "turn": 11
+    },
+    {
+     "action": {
+      "hand_index": 5,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 6"
+     ],
+     "hp": 45,
+     "turn": 11
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 45,
+     "turn": 11
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 45,
+     "turn": 11
+    }
+   ],
+   "potions": 1,
+   "practice": "dark",
+   "seed": 900046,
+   "seed_string": "KZQL",
+   "steps": 62,
+   "timed_out": false,
+   "won": true
+  },
+  {
+   "act": 3,
+   "ascension": 10,
+   "character": "defect",
+   "deck": [
+    "Strike",
+    "Zap",
+    "Dualcast",
+    "Defragment",
+    "Coolheaded+",
+    "Cold Snap",
+    "White Noise+",
+    "Self Repair+",
+    "Capacitor+",
+    "Barrage+",
+    "Go for the Eyes+",
+    "Barrage",
+    "Leap+",
+    "Boot Sequence",
+    "Chill",
+    "Blizzard+",
+    "Go for the Eyes",
+    "Charge Battery",
+    "Go for the Eyes",
+    "Barrage",
+    "Reinforced Body+",
+    "Barrage+",
+    "Capacitor"
+   ],
+   "encounter": "3 Darklings",
+   "floor": 36,
+   "harness": [
+    {
+     "relics": [
+      "Cracked Core",
+      "Black Star",
+      "Runic Pyramid",
+      "Prayer Wheel",
+      "Singing Bowl",
+      "Mummified Hand",
+      "CeramicFish",
+      "Mercury Hourglass",
+      "Anchor",
+      "Darkstone Periapt",
+      "DataDisk",
+      "WingedGreaves",
+      "Symbiotic Virus",
+      "Oddly Smooth Stone"
+     ]
+    },
+    {
+     "deck": [
+      [
+       "Strike_B",
+       0
+      ],
+      [
+       "Zap",
+       0
+      ],
+      [
+       "Dualcast",
+       0
+      ],
+      [
+       "Defragment",
+       0
+      ],
+      [
+       "Coolheaded",
+       1
+      ],
+      [
+       "Cold Snap",
+       0
+      ],
+      [
+       "White Noise",
+       1
+      ],
+      [
+       "Self Repair",
+       1
+      ],
+      [
+       "Capacitor",
+       1
+      ],
+      [
+       "Barrage",
+       1
+      ],
+      [
+       "Go for the Eyes",
+       1
+      ],
+      [
+       "Barrage",
+       0
+      ],
+      [
+       "Leap",
+       1
+      ],
+      [
+       "BootSequence",
+       0
+      ],
+      [
+       "Chill",
+       0
+      ],
+      [
+       "Blizzard",
+       1
+      ],
+      [
+       "Go for the Eyes",
+       0
+      ],
+      [
+       "Conserve Battery",
+       0
+      ],
+      [
+       "Go for the Eyes",
+       0
+      ],
+      [
+       "Barrage",
+       0
+      ],
+      [
+       "Reinforced Body",
+       1
+      ],
+      [
+       "Barrage",
+       1
+      ],
+      [
+       "Capacitor",
+       0
+      ]
+     ],
+     "encounter": "3 Darklings",
+     "hp": 70,
+     "max_hp": 78,
+     "potions": [
+      "Strength Potion",
+      "EssenceOfDarkness",
+      "CultistPotion"
+     ]
+    }
+   ],
+   "hp": 78,
+   "max_hp": 78,
+   "moves": [
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 70,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 70,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 70,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 70,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 70,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 2,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 2"
+     ],
+     "hp": 70,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 70,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 70,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 70,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 2,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 2"
+     ],
+     "hp": 70,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 2,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 2"
+     ],
+     "hp": 70,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 70,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 70,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 68,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 5,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 6"
+     ],
+     "hp": 68,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 68,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 68,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 68,
+     "turn": 3
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 68,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 2,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 2"
+     ],
+     "hp": 68,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 68,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 1,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 1"
+     ],
+     "hp": 68,
+     "turn": 4
+    }
+   ],
+   "potions": 3,
+   "practice": "frost",
+   "seed": 900094,
+   "seed_string": "KZRZ",
+   "steps": 22,
+   "timed_out": false,
+   "won": true
+  }
+ ]
+}

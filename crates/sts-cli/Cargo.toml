@@ -1,0 +1,9 @@
+[package]
+name = "sts-cli"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+sts-core = { path = "../sts-core" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

@@ -1,0 +1,41 @@
+{
+  "fight_checkpoint": "python/runs/second/latest.pt",
+  "random": {
+    "runs": 512,
+    "win_rate": 0.0,
+    "floor": 12.599609375,
+    "floor_median": 13.0,
+    "reached_act": {
+      "2": 0.078125,
+      "3": 0.0,
+      "4": 0.0
+    },
+    "died_in_act": {
+      "1": 0.921875,
+      "2": 0.078125,
+      "3": 0.0,
+      "4": 0.0
+    },
+    "timed_out": 0,
+    "seconds": 11.8
+  },
+  "scripted": {
+    "runs": 512,
+    "win_rate": 0.0,
+    "floor": 18.263671875,
+    "floor_median": 16.0,
+    "reached_act": {
+      "2": 0.349609375,
+      "3": 0.009765625,
+      "4": 0.0
+    },
+    "died_in_act": {
+      "1": 0.650390625,
+      "2": 0.33984375,
+      "3": 0.009765625,
+      "4": 0.0
+    },
+    "timed_out": 0,
+    "seconds": 19.8
+  }
+}

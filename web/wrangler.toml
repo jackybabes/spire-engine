@@ -1,0 +1,9 @@
+# The hosted viewer (Cloudflare Pages project spire-viewer): the page from dist/ (web/build_site.py)
+# and, through the Function in functions/assets/, the engine and weights from the R2 bucket.
+name = "spire-viewer"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-10-01"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "spire-viewer-assets"

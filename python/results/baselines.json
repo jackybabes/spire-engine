@@ -1,0 +1,56 @@
+{
+  "random_decks_all_encounters/random": {
+    "fights": 4096,
+    "win_rate": 0.3544921875,
+    "hp_lost": 62.676025390625,
+    "hp_lost_when_won": 31.130165289256198,
+    "turns": 5.715576171875,
+    "timed_out": 0,
+    "win_rate_by_act": {
+      "1": 0.7579425113464447,
+      "2": 0.2667607621736062,
+      "3": 0.058871627146361405,
+      "4": 0.0
+    },
+    "seconds": 0.5
+  },
+  "random_decks_all_encounters/scripted": {
+    "fights": 4096,
+    "win_rate": 0.63134765625,
+    "hp_lost": 43.072998046875,
+    "hp_lost_when_won": 21.546403712296982,
+    "turns": 5.5498046875,
+    "timed_out": 3,
+    "win_rate_by_act": {
+      "1": 0.9462934947049925,
+      "2": 0.7043048694424842,
+      "3": 0.27555192150449714,
+      "4": 0.0
+    },
+    "seconds": 1.2
+  },
+  "starter_deck_act1/random": {
+    "fights": 4096,
+    "win_rate": 0.54736328125,
+    "hp_lost": 53.2060546875,
+    "hp_lost_when_won": 31.04906333630687,
+    "turns": 7.688232421875,
+    "timed_out": 0,
+    "win_rate_by_act": {
+      "1": 0.54736328125
+    },
+    "seconds": 0.5
+  },
+  "starter_deck_act1/scripted": {
+    "fights": 4096,
+    "win_rate": 0.71533203125,
+    "hp_lost": 33.578125,
+    "hp_lost_when_won": 15.10443686006826,
+    "turns": 8.71875,
+    "timed_out": 0,
+    "win_rate_by_act": {
+      "1": 0.71533203125
+    },
+    "seconds": 1.2
+  }
+}

@@ -1,0 +1,1080 @@
+{
+ "checkpoint": "python/runs/second/latest.pt",
+ "fights": [
+  {
+   "deck": [
+    [
+     "Disarm",
+     0
+    ],
+    [
+     "Dropkick",
+     0
+    ],
+    [
+     "Juggernaut",
+     1
+    ],
+    [
+     "Armaments",
+     0
+    ],
+    [
+     "Seeing Red",
+     1
+    ],
+    [
+     "Headbutt",
+     1
+    ],
+    [
+     "Fiend Fire",
+     1
+    ],
+    [
+     "Flame Barrier",
+     0
+    ],
+    [
+     "Uppercut",
+     0
+    ],
+    [
+     "Berserk",
+     0
+    ],
+    [
+     "Uppercut",
+     0
+    ]
+   ],
+   "encounter": "Gremlin Nob",
+   "hp": 80,
+   "max_hp": 80,
+   "moves": [
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 80,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 80,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 80,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5 0"
+     ],
+     "hp": 80,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 80,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5 0"
+     ],
+     "hp": 74,
+     "turn": 3
+    }
+   ],
+   "seed": 100027,
+   "seed_string": "2BMX",
+   "steps": 6,
+   "timed_out": false,
+   "turns": 3,
+   "won": true
+  },
+  {
+   "deck": [
+    [
+     "Burning Pact",
+     1
+    ],
+    [
+     "Blood for Blood",
+     0
+    ],
+    [
+     "Bludgeon",
+     1
+    ],
+    [
+     "Fiend Fire",
+     1
+    ],
+    [
+     "Flex",
+     1
+    ],
+    [
+     "Intimidate",
+     1
+    ],
+    [
+     "Exhume",
+     0
+    ],
+    [
+     "Twin Strike",
+     0
+    ],
+    [
+     "Blood for Blood",
+     1
+    ],
+    [
+     "Fire Breathing",
+     0
+    ],
+    [
+     "True Grit",
+     1
+    ]
+   ],
+   "encounter": "Hexaghost",
+   "hp": 42,
+   "max_hp": 80,
+   "moves": [
+    {
+     "action": {
+      "hand_index": 4,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5 0"
+     ],
+     "hp": 80,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 80,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 80,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 80,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 80,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 80,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 80,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 50,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 50,
+     "turn": 3
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 50,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 46,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 46,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 46,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 46,
+     "turn": 4
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 46,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 36,
+     "turn": 5
+    }
+   ],
+   "seed": 100084,
+   "seed_string": "2BPJ",
+   "steps": 16,
+   "timed_out": false,
+   "turns": 5,
+   "won": true
+  },
+  {
+   "deck": [
+    [
+     "Carnage",
+     1
+    ],
+    [
+     "Second Wind",
+     1
+    ],
+    [
+     "Flex",
+     1
+    ],
+    [
+     "Feel No Pain",
+     0
+    ],
+    [
+     "Spot Weakness",
+     0
+    ],
+    [
+     "Rupture",
+     0
+    ],
+    [
+     "Dark Embrace",
+     0
+    ],
+    [
+     "Exhume",
+     0
+    ],
+    [
+     "Twin Strike",
+     1
+    ],
+    [
+     "Bludgeon",
+     1
+    ],
+    [
+     "Fire Breathing",
+     1
+    ]
+   ],
+   "encounter": "Book of Stabbing",
+   "hp": 29,
+   "max_hp": 80,
+   "moves": [
+    {
+     "action": {
+      "hand_index": 4,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5 0"
+     ],
+     "hp": 80,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 80,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 80,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 80,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 68,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 68,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 68,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 68,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 68,
+     "turn": 3
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 68,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 47,
+     "turn": 4
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 47,
+     "turn": 4
+    }
+   ],
+   "seed": 100109,
+   "seed_string": "2BQ9",
+   "steps": 12,
+   "timed_out": false,
+   "turns": 5,
+   "won": true
+  },
+  {
+   "deck": [
+    [
+     "Infernal Blade",
+     0
+    ],
+    [
+     "Carnage",
+     1
+    ],
+    [
+     "Demon Form",
+     0
+    ],
+    [
+     "Searing Blow",
+     1
+    ],
+    [
+     "Feel No Pain",
+     0
+    ],
+    [
+     "Rupture",
+     1
+    ],
+    [
+     "Ghostly Armor",
+     1
+    ],
+    [
+     "Rupture",
+     0
+    ],
+    [
+     "Brutality",
+     1
+    ],
+    [
+     "Combust",
+     1
+    ],
+    [
+     "Disarm",
+     1
+    ],
+    [
+     "Heavy Blade",
+     1
+    ],
+    [
+     "Rupture",
+     1
+    ],
+    [
+     "Cleave",
+     0
+    ],
+    [
+     "Demon Form",
+     1
+    ],
+    [
+     "Shockwave",
+     0
+    ],
+    [
+     "Bludgeon",
+     1
+    ]
+   ],
+   "encounter": "Champ",
+   "hp": 61,
+   "max_hp": 80,
+   "moves": [
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 80,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 80,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 80,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 79,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 79,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 79,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 79,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 59,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 59,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 59,
+     "turn": 3
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 59,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 57,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4"
+     ],
+     "hp": 57,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5"
+     ],
+     "hp": 57,
+     "turn": 4
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 57,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 5,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 6"
+     ],
+     "hp": 55,
+     "turn": 5
+    },
+    {
+     "action": {
+      "hand_index": 4,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 5 0"
+     ],
+     "hp": 55,
+     "turn": 5
+    }
+   ],
+   "seed": 100058,
+   "seed_string": "2BNT",
+   "steps": 17,
+   "timed_out": false,
+   "turns": 5,
+   "won": true
+  },
+  {
+   "deck": [
+    [
+     "Hemokinesis",
+     0
+    ],
+    [
+     "Barricade",
+     0
+    ],
+    [
+     "Shockwave",
+     1
+    ],
+    [
+     "Clash",
+     1
+    ],
+    [
+     "Offering",
+     1
+    ],
+    [
+     "Hemokinesis",
+     1
+    ],
+    [
+     "Juggernaut",
+     1
+    ],
+    [
+     "Twin Strike",
+     0
+    ]
+   ],
+   "encounter": "Nemesis",
+   "hp": 0,
+   "max_hp": 80,
+   "moves": [
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 80,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 80,
+     "turn": 1
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 78,
+     "turn": 1
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3"
+     ],
+     "hp": 60,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1"
+     ],
+     "hp": 60,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": null,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2"
+     ],
+     "hp": 54,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 54,
+     "turn": 2
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 54,
+     "turn": 2
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 21,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 2,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 3 0"
+     ],
+     "hp": 21,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 1,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 2 0"
+     ],
+     "hp": 19,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 0,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 1 0"
+     ],
+     "hp": 17,
+     "turn": 3
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 17,
+     "turn": 3
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 17,
+     "turn": 4
+    },
+    {
+     "action": {
+      "hand_index": 3,
+      "target": 0,
+      "type": "play_card"
+     },
+     "cmds": [
+      "play 4 0"
+     ],
+     "hp": 17,
+     "turn": 4
+    },
+    {
+     "action": {
+      "type": "end_turn"
+     },
+     "cmds": [
+      "end"
+     ],
+     "hp": 15,
+     "turn": 4
+    }
+   ],
+   "seed": 100034,
+   "seed_string": "2BN4",
+   "steps": 16,
+   "timed_out": false,
+   "turns": 4,
+   "won": false
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+{"bias": -3.0046382910615343, "value": 0.3049339187996866, "floor": 0.002428253369373348, "ascension": -0.007545461029194778, "ascension2": -0.0028715602146674427, "value_ascension": 0.004042115901032498, "value_floor": -0.0011882913060157403, "heart": true, "fit": "2560 greedy runs of df10 update 600, A0,5,10,15,20; held-out log loss 0.411 (constant 0.547)"}

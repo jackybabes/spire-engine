@@ -1,0 +1,7 @@
+[package]
+name = "sts-encode"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+sts-core = { path = "../sts-core" }
